@@ -1,0 +1,99 @@
+/* Estilo general */
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
+  background-color: #e0f7fa; /* Azul cielo claro */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* Encabezado */
+header {
+  background-color: #4fc3f7; /* Azul más fuerte */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 5px solid #0288d1;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.subtitulo {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de secciones */
+h2 {
+  color: #0288d1;
+  font-size: 1.9rem;
+  border-bottom: 2px solid #4fc3f7;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #039be5;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+}
+
+/* Listas con íconos infantiles */
+ul {
+  margin-left: 1.8rem;
+  font-size: 1.1rem;
+}
+
+ul li::marker {
+  content: '🌟 ';
+}
+
+/* Referencias en bloque resaltado */
+.referencia {
+  background-color: #b3e5fc;
+  border-left: 6px solid #0288d1;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: #0277bd;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #01579b;
+}
+
+/* Pie de página */
+footer {
+  background-color: #4fc3f7;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  border-top: 5px solid #0288d1;
+}
